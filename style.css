@@ -1811,6 +1811,10 @@ margin-left: 20px;
     position: relative;
   }
   
+  .sectionClass {
+    background: white;
+  }
+
   .sectionClassProject {
     position: relative;
     display: block;
