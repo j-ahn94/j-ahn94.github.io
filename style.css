@@ -828,7 +828,11 @@
   
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 450px) {
+  html, body{
+    overflow-x: hidden;
+  }
+  
   .navbar-brand img {
     width: 300px;
   }
@@ -857,7 +861,7 @@
     margin-bottom: 10rem;
     position: absolute;
     margin-left: -1rem;
-    margin-top: 23rem;
+    margin-top: 25rem;
   }
 
   #cedar-database-image-div {
@@ -879,7 +883,7 @@
 
   #cedar-database-direct-link-wrapper {
     position: relative;
-    margin-left: 230px;
+    margin-left: 250px;
     margin-top: 402px;
   }
 
@@ -932,7 +936,7 @@
     margin-bottom: 10rem;
     position: absolute;
     margin-left: -1rem;
-    margin-top: 350px;
+    margin-top: 380px;
   }
 
   #we-cycle-image {
@@ -949,12 +953,13 @@
   #we-cycle-direct-link-wrapper {
     position: relative;
     margin-left: 150px;
-    margin-top: 340px;
+    margin-top: 370px;
   }
 
   #good-cop-bad-cop {
     flex-wrap: none;
     margin-left: -2rem;
+    margin-top: 270px;
   }
 
   #good-cop-bad-cop-image-div {
@@ -977,7 +982,7 @@
   #good-cop-bad-cop-description {
     position: absolute;
     margin-left: 10px;
-    margin-top: 350px;
+    margin-top: 370px;
   }
 
   #good-cop-bad-cop-title {
@@ -987,7 +992,7 @@
 
   #good-cop-bad-cop-link-wrapper {
     position: relative;
-    margin-top: 350px;
+    margin-top: 370px;
   }
 
   #good-cop-bad-cop-direct-link {
@@ -1020,18 +1025,18 @@
   #jsonahn-description {
     position: absolute;
     margin-left: -1rem;
-    margin-top: 370px;
+    margin-top: 390px;
   }
 
   #jsonahn-direct-link-wrapper {
     position: relative;
     margin-left: 12rem;
-    margin-top: 360px;
+    margin-top: 370px;
   }
 
   #json-direct-link {
     margin-left: 45px;
-    margin-top: 370px;
+    margin-top: 400px;
   }
 
   #rcmp-crime-report {
@@ -1059,7 +1064,7 @@
   #rcmp-crime-report-description {
     position: relative;
     margin-left: 40px;
-    margin-top: 450px;
+    margin-top: 500px;
   }
 
   #rcmp-crime-report-heading {
@@ -1070,7 +1075,7 @@
   #rcmp-crime-report-link-wrapper {
     position: relative;
     margin-left: -10px;
-    margin-top: 430px;
+    margin-top: 480px;
   }
 
 }
