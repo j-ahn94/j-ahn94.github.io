@@ -263,7 +263,6 @@
     background: black;
     bottom: -6px;
     left: 0;
-  
     -webkit-transform: scale(0, 1);
     -ms-transform: scale(0, 1);
     transform: scale(0, 1);
@@ -502,7 +501,7 @@
 
 
 
-@media screen and (max-width: 2000px) {
+@media screen and (max-width: 2500px) {
     #hello {
         font-size: 2vw;
     }
@@ -544,6 +543,12 @@
     }
 }
 
+@media screen and (max-width: 1100px) {
+  #good-cop-bad-cop {
+    margin-top: 200px;
+  }
+}
+
 @media screen and (max-width: 988px) {
   #mainMenu #navbars #first {
     font-size: 3vw;
@@ -571,7 +576,7 @@
 
   #we-cycle {
     display: block;
-    margin-bottom: 200px;
+    margin-bottom: 300px;
   }
 
   #we-cycle-image {
@@ -585,10 +590,8 @@
     text-align: center;
     margin-right: 10%;
   }
-
-  
-
 }
+
 @media screen and (max-width: 900px) {
     #hello {
         font-size: 2vw;
@@ -625,6 +628,29 @@
     margin-left: 50px;
     margin-top: 200px;
   }
+
+  #jphoto-image-div {
+    width: 100%;
+    height: 100%;
+    margin-left: 100px;
+  }
+  
+  #jphoto-description {
+    margin-top: 250px;
+    text-align: center;
+    margin-left: -80%;
+  }
+
+  #jphoto-paragraph {
+    margin-left: 250px;
+    position: absolute;
+  }
+
+  #jphoto-direct-link-wrapper {
+    margin-left: 40px;
+    margin-top: 350px;
+  }
+
 
   #we-cycle-image-div {
     width: 100%;
@@ -837,7 +863,7 @@
   #cedar-database-image-div {
     margin-top: 150px;
     position: absolute;
-    margin-left: -1rem;
+    margin-left: -50px;
   }
 
   #cedar-database-image {
@@ -857,6 +883,41 @@
     margin-top: 402px;
   }
 
+  #jphoto {
+    flex-wrap: none;
+  }
+  
+  #jphoto-description {
+    margin-bottom: 10rem;
+    position: absolute;
+    margin-left: -1rem;
+    margin-top: 23rem;
+  }
+
+  #jphoto-image-div {
+    margin-top: 150px;
+    position: absolute;
+    margin-left: -50px;
+  }
+
+  #jphoto-image {
+    float: right;
+    margin-top: 180px;
+    flex-wrap: none;
+    /* NEW IMPLEMENTATION OF RESPONSIVENESS */
+    width: 100%;
+    max-width: 100%; 
+    height: auto;
+    object-fit: cover;
+  }
+
+  #jphoto-direct-link-wrapper {
+    position: relative;
+    margin-left: 175px;
+    margin-top: 365px;
+  }
+
+
   #we-cycle {
     flex-wrap: none;
   }
@@ -864,7 +925,7 @@
   #we-cycle-image-div {
     margin-top: 100px;
     position: absolute;
-    margin-left: -1rem;
+    margin-left: -50px;
   }
 
   #we-cycle-description {
@@ -915,18 +976,22 @@
 
   #good-cop-bad-cop-description {
     position: absolute;
-    margin-left: -1rem;
+    margin-left: 10px;
     margin-top: 350px;
+  }
+
+  #good-cop-bad-cop-title {
+    position: relative;
+    margin-right: -100px;
   }
 
   #good-cop-bad-cop-link-wrapper {
     position: relative;
-    margin-left: 12rem;
     margin-top: 350px;
   }
 
   #good-cop-bad-cop-direct-link {
-    margin-left: 70px;
+    margin-left: 10px;
     margin-top: 300px;
   }
 
@@ -938,7 +1003,7 @@
   #jsonahn-image-div {
     margin-top: 150px;
     position: absolute;
-    margin-left: -1rem;
+    margin-left: -50px;
   }
   
   #jsonahn-image {
@@ -955,18 +1020,18 @@
   #jsonahn-description {
     position: absolute;
     margin-left: -1rem;
-    margin-top: 350px;
+    margin-top: 370px;
   }
 
   #jsonahn-direct-link-wrapper {
     position: relative;
     margin-left: 12rem;
-    margin-top: 350px;
+    margin-top: 360px;
   }
 
   #json-direct-link {
     margin-left: 45px;
-    margin-top: 358px;
+    margin-top: 370px;
   }
 
   #rcmp-crime-report {
@@ -992,13 +1057,19 @@
   }
 
   #rcmp-crime-report-description {
-    margin-left: -1rem;
+    position: relative;
+    margin-left: 40px;
     margin-top: 450px;
+  }
+
+  #rcmp-crime-report-heading {
+    position: relative;
+    margin-left: -60px;
   }
 
   #rcmp-crime-report-link-wrapper {
     position: relative;
-    margin-left: 25px;
+    margin-left: -10px;
     margin-top: 430px;
   }
 
@@ -1222,6 +1293,48 @@ border-radius: 10px;
 #cedar-database-direct-link {
 margin-top: 35px;
 margin-left: 30px;
+}
+
+#jphoto {
+  display: flex;
+  margin-top: 150px;
+  margin-bottom: 100px;
+}
+
+#jphoto-image {
+  /* NEW IMPLEMENTATION OF RESPONSIVENESS */
+  margin:auto;
+  width: 100%; 
+  max-width: 100%; 
+  height: auto;
+  object-fit: cover;
+}
+
+#jphoto-heading span {
+white-space: nowrap;
+margin-left: 35%;
+}
+
+#jphoto-title {
+font-size: 1.5rem;
+margin-left: 35%;
+}
+
+#jphoto-paragraph {
+border: 1px solid transparent;
+padding: 10px;
+width: 20rem;
+margin-left: -5%;
+margin-top: 25px;
+font-size: 1.0rem;
+position: absolute;
+background-color: rgb(218, 224, 226);
+border-radius: 10px;
+}
+
+#jphoto-direct-link {
+margin-top: 45px;
+margin-left: 40px;
 }
 
 #we-cycle {
