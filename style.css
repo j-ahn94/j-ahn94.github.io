@@ -1,4 +1,5 @@
 
+
 /* INDEX HTML STYLING */
 /*********************/
 /*********************/
@@ -820,10 +821,12 @@
 
   #description-text-one {
     font-size: 3.5vw;
+    color: black;
   }
 
   #description-text-two {
     font-size: 3.5vw;
+    color: black;
   }
   
 }
@@ -1159,6 +1162,7 @@
     line-height: 2.0;
     /*display: clear;*/
     font-size: 20px;
+    color: black;
 }
 
 #profile-pic {
@@ -1172,6 +1176,7 @@
 #description-text-two {
     line-height: 2.0;
     font-size: 20px;
+    color: black;
 }
 
 ul {  
